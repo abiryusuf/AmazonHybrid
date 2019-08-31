@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AmazonTestSuite">
+    
+    <listeners>
+       <listener class-name="com.amazon.framework.reporting.ExtentTestNGITestListener"/>
+
+    </listeners>
+
+
+    <test name="functional test">
+        <classes>
+            <class name="testing.testng.AmazonDataDrivenLoginTestWithTestNG"/>
+            <class name="com.amazon.framework.base.ApplicationBaseJunit"/>
+            <class name="testing.com.test.LoginTestWithTestNG"/>
+        </classes>
+    </test>
+</suite>

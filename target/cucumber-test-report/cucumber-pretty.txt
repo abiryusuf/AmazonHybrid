@@ -1,0 +1,23 @@
+Feature: Amazon e-commerce Login Functionality
+
+  Background:                                        [90m# src/test/resources/features/AmazonCartPage.feature:3[0m
+    [32mGiven [0m[32mAs a not validated user[0m                    [90m# HomePage.as_a_not_validated_user()[0m
+    [32mWhen [0m[32mBrowse to the url "[0m[32m[1mhttps://www.amazon.com/[0m[32m"[0m [90m# HomePage.browse_to_the_url(String)[0m
+
+  Scenario: 2 Add to cart men shoes                          [90m# src/test/resources/features/AmazonCartPage.feature:7[0m
+    [32mWhen [0m[32mWrite "[0m[32m[1mAthletic shoes men[0m[32m" as search box and submit[0m [90m# AddToCartStep.write_as_search_box_and_submit(String)[0m
+    [32mAnd [0m[32mClick tesla men shoes[0m                                [90m# AddToCartStep.click_tesla_men_shoes()[0m
+    [32mAnd [0m[32mClick choice color[0m                                   [90m# AddToCartStep.click_choice_color()[0m
+    [32mAnd [0m[32mClick Select box[0m                                     [90m# AddToCartStep.click_Select_box()[0m
+    [32mAnd [0m[32mDrop Down for  shoes size and click[0m                  [90m# AddToCartStep.drop_Down_for_shoes_size_and_click()[0m
+    [32mThen [0m[32mClick Add to cart[0m                                   [90m# AddToCartStep.click_Add_to_cart()[0m
+Feature: Amazon e-commerce Login Functionality
+
+  Background:                                        [90m# src/test/resources/features/AmazonSearch.feature:3[0m
+    [32mGiven [0m[32mAs a not validated user[0m                    [90m# HomePage.as_a_not_validated_user()[0m
+    [32mWhen [0m[32mBrowse to the url "[0m[32m[1mhttps://www.amazon.com/[0m[32m"[0m [90m# HomePage.browse_to_the_url(String)[0m
+
+  Scenario: 1. Go to Search Box         [90m# src/test/resources/features/AmazonSearch.feature:7[0m
+    [32mAnd [0m[32mWrite "[0m[32m[1mshoes[0m[32m" as in search box[0m  [90m# SearchSteps.write_as_in_search_box(String)[0m
+    [32mAnd [0m[32mDrop and Down for shoes for men[0m [90m# SearchSteps.drop_and_Down_for_shoes_for_men()[0m
+    [32mThen [0m[32mClick shoes for men[0m            [90m# SearchSteps.click_shoes_for_men()[0m

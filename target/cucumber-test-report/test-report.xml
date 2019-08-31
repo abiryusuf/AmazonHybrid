@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.065778">
+    <testcase classname="Amazon e-commerce Login Functionality" name="2 Add to cart men shoes" time="20.417796">
+        <system-out>
+            <![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "https://www.amazon.com/"............................passed
+When Write "Athletic shoes men" as search box and submit....................passed
+And Click tesla men shoes...................................................passed
+And Click choice color......................................................passed
+And Click Select box........................................................passed
+And Drop Down for  shoes size and click.....................................passed
+Then Click Add to cart......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon e-commerce Login Functionality" name="1. Go to Search Box" time="13.647982">
+        <system-out>
+            <![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "https://www.amazon.com/"............................passed
+And Write "shoes" as in search box..........................................passed
+And Drop and Down for shoes for men.........................................passed
+Then Click shoes for men....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

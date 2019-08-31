@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 767619741,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HomePage.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2928309303,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"https://www.amazon.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HomePage.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7820273844,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "2 Add to cart men shoes",
+        "description": "",
+        "id": "amazon-e-commerce-login-functionality;2-add-to-cart-men-shoes",
+        "after": [
+          {
+            "result": {
+              "duration": 1156233880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012275206,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Write \"Athletic shoes men\" as search box and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Athletic shoes men",
+                  "offset": 7
+                }
+              ],
+              "location": "AddToCartStep.write_as_search_box_and_submit(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2893600808,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click tesla men shoes",
+            "match": {
+              "location": "AddToCartStep.click_tesla_men_shoes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221920521,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click choice color",
+            "match": {
+              "location": "AddToCartStep.click_choice_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271735583,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Select box",
+            "match": {
+              "location": "AddToCartStep.click_Select_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316929416,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Drop Down for  shoes size and click",
+            "match": {
+              "location": "AddToCartStep.drop_Down_for_shoes_size_and_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028898146,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Add to cart",
+            "match": {
+              "location": "AddToCartStep.click_Add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon e-commerce Login Functionality",
+    "description": "",
+    "id": "amazon-e-commerce-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AmazonCartPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1557916398,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HomePage.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2716836573,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"https://www.amazon.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HomePage.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3988016635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "1. Go to Search Box",
+        "description": "",
+        "id": "amazon-e-commerce-login-functionality;1.-go-to-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 1020362249,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 372645706,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Write \"shoes\" as in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shoes",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchSteps.write_as_in_search_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3625084000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Drop and Down for shoes for men",
+            "match": {
+              "location": "SearchSteps.drop_and_Down_for_shoes_for_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367119943,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click shoes for men",
+            "match": {
+              "location": "SearchSteps.click_shoes_for_men()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon e-commerce Login Functionality",
+    "description": "",
+    "id": "amazon-e-commerce-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AmazonSearch.feature"
+  }
+]
