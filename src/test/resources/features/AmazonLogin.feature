@@ -24,8 +24,8 @@ Feature: Amazon e-commerce Login Functionality
     * Click login
     * Verify my account "<username>"
     Examples:
-      |emailaddress            |password        |username|
-      |yusuf_ctg@yahoo.com     |ja135786        |Hello, yusuf|
+      |emailaddress            |password
+      |yusuf_ctg@yahoo.com     | ABC
 
 
 
